@@ -12,6 +12,7 @@ main{
   /* border: 1px solid black; */
   
 }
+
 h1{
     text-align: center;
     font-size: 1rem;
@@ -24,11 +25,7 @@ hr{
     width: 70px;
     color: rgb(44, 142, 203);
 }
-.title{
-    /* border: 1px solid black; */
-    display: grid;
-    align-items: center;
-}
+
 
 /* review */
 .review{
@@ -70,22 +67,7 @@ p{
 #info{
     margin: 5px 20px;
 }
-/* .img-container {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-bottom: 1.5rem;
-  }
-  #person-img {
-    width: 100%;
-    display: block;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    position: relative;
-  } */
+
 
   .prev-btn, 
   .next-btn {
