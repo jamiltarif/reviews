@@ -6,17 +6,13 @@ body{
 }
 
 /* title */
-main{
-    display: grid;
-  place-items: center;
-  /* border: 1px solid black; */
-  
-}
+
 
 h1{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.8rem;
 }
+
 hr{
     border: 3px solid;
     border-bottom: none;
@@ -25,19 +21,34 @@ hr{
     width: 70px;
     color: rgb(44, 142, 203);
 }
+/* container */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
 
 
 /* review */
-.review{
-    
-    display: grid;
+.review{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vw;
+    max-width: 500px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
+    /* display: grid;
     place-items: center;
+    margin: auto;
     background-color: rgb(255, 255, 255);
     text-align: center;
     width: 70vw;
     max-width: 300px;
     box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
-    margin-bottom: 10px;
+    margin-bottom: 10px; */
 }
 
 .img-container{
@@ -51,12 +62,13 @@ hr{
     border-radius: 50%;
 }
 h4{
-    font-size: 0.6rem;
+    font-size: 1rem;
     margin: 0;
     margin-top: 15px;
 }
 p{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+    text-align: center;
     
 }
 
